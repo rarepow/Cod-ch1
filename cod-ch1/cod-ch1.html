@@ -1,51 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="cod-ch.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
-      rel="stylesheet"
-    />
-    <title>Stan Lee Coding Challenge</title>
-  </head>
-  <body>
-    <!-- To Do List
-    0.Kapsayıcı div
-    1.H1-İmage-Tarih Div içinde
-    2.Article içinde paragraf
-    3.h2 liste başlığı
-    4.ul>li*10
-    5.footer wikipedia button link
-  -->
-    <div class="container">
-      <h1>
-        <em>Martin <span>Lieber</span></em>
-      </h1>
-      <div class="header-part">
-        <img src="./img/stan-lee.jpg" alt="StanLee" />
-        <p class="date">From 1922 to 2018</p>
-      </div>
-      <article>
-        Stan Lee[1] (born Stanley Martin Lieber /ˈliːbər/; December 28, 1922 –
-        November 12, 2018) was an American comic book writer, editor, publisher,
-        and producer. He rose through the ranks of a family-run business to
-        become Marvel Comics' primary creative leader for two decades, leading
-        its expansion from a small division of a publishing house to a
-        multimedia corporation that dominated the comics industry. which he
-        received an executive producer credit. Meanwhile, he continued
-        independent creative ventures into his 90s, until his death in 2018. Lee
-        attended DeWitt Clinton High School in the Bronx.[9] In his youth, Lee
-        enjoyed writing and entertained dreams of writing the "Great American
-        Novel" one day.[10] He said that in his youth he worked such part-time
-        jobs as writing obituaries for a news service and press releases for the
-        National
-      </article>
-      <h2 class="list-title"><em>Marvel Comics</em></h2>
-      <ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StanLee</title>
+    <link rel="stylesheet" href="./cod-ch.css">
+</head>
+<body>
+    <!-- to do list 
+    1.kapsayıcı div
+    2.h1 
+    3.img 
+    4.p etiketi ile date
+    5.first paragraph ve komple div
+    6.h2 ve list
+    7.footer ve butoon
+
+-->
+<div class="container">
+    <h1>Martin <span>Lieber</span></h1>
+    <div class="img-date"><img src="./img/stan-lee.jpg" alt="StanLee"> <p>From 1922 to 2018</p></div>
+    <article class="first-paragraph"> Stan Lee[1] (born Stanley Martin Lieber /ˈliːbər/; December 28, 1922 – November 12, 2018) was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a family-run business to become Marvel Comics' primary creative leader for two decades, leading its expansion from a small division of a publishing house to a multimedia corporation that dominated the comics industry. which he received an executive producer credit. Meanwhile, he continued independent creative ventures into his 90s, until his death in 2018. Lee attended DeWitt Clinton High School in the Bronx.[9] In his youth, Lee enjoyed writing and entertained dreams of writing the "Great American Novel" one day.[10] He said that in his youth he worked such part-time jobs as writing obituaries for a news service and press releases for the National</article>
+    <h2>Marvel Comics</h2>
+    <ul class="list">
         <li>
           The Amazing Spider-Man #1–100, 105–110, 116–118 (co-written with Gerry
           Conway), 200 (epilogue), Annual #1–5, 18 (1962–1984);
@@ -73,9 +50,10 @@
         </li>
       </ul>
       <footer>
-        <p>A read more about Martin Lieber on <button ><a target="_blank" href="https://en.wikipedia.org/wiki/Stan_Lee"> Wikipedia</a></button></p>
+        <div class="last-paragraph" >A read more about Martin Lieber on <button> <a href="https://en.wikipedia.org/wiki/Stan_Lee">wikipedia</a> </button> </div>
       </footer>
-    </div>
-    
-  </body>
+
+</div>
+
+</body>
 </html>
